@@ -2,8 +2,8 @@ package school.mjc.stage0.conditions.task1;
 
 public class ConditionalTruePrinter {
     public static void main(String[] args) {
-        if(2>0) {
+        int a = 2;
+        if(a>0)
             System.out.println("true");
-        }
     }
 }
